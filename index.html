@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uganda Wildlife Conservation Society</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #2d6a4f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header nav {
+      margin-top: 10px;
+    }
+
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    header nav ul li {
+      display: inline;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    header nav ul li a:hover {
+      color: #f1f1f1;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      max-height: 450px;
+      object-fit: cover;
+    }
+
+    .hero .hero-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .hero .cta-btn {
+      background-color: #f1c40f;
+      color: #333;
+      padding: 10px 25px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .hero .cta-btn:hover {
+      background-color: #e67e22;
+    }
+
+    /* About Section */
+    .about {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    /* Projects Section */
+    .projects {
+      padding: 40px 20px;
+      background-color: #eaf2f8;
+    }
+
+    .projects h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .project h3 {
+      font-size: 1.6rem;
+    }
+
+    .project p {
+      font-size: 1.1rem;
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .cta-btn {
+      background-color: #2d6a4f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+
+    .cta-btn:hover {
+      background-color: #1f4f38;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2d6a4f;
+      color: white;
+    }
+
+    footer .social-media a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    footer .social-media a:hover {
+      color: #f1c40f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Uganda Wildlife Conservation Society</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="uganda-wildlife.jpg" alt="Uganda Wildlife">
+    <div class="hero-text">
+      <h2>Preserving Uganda’s Wildlife for Future Generations</h2>
+      <a href="#support" class="cta-btn">Join Our Mission</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>The Uganda Wildlife Conservation Society (UWCS) is dedicated to protecting Uganda's wildlife and ecosystems. Our mission is to ensure a sustainable environment for future generations by engaging local communities, educating the public, and supporting scientific research.</p>
+    <p>We focus on both wildlife protection and habitat restoration efforts, working with various stakeholders to make a lasting impact on the biodiversity of Uganda.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Wildlife & Conservation Projects</h2>
+
+    <div class="project">
+      <div>
+        <h3>Gorilla Protection Project</h3>
+        <p>Our efforts focus on protecting endangered mountain gorillas in Uganda through anti-poaching, habitat restoration, and public education programs.</p>
+      </div>
+      <a href="#support" class="cta-btn">Get Involved</a>
+    </div>
+
+    <div class="project">
+      <div>
+        <h3>Reforestation Initiative</h3>
+        <p>We are working to restore Uganda's vital forests by planting trees, educating local communities, and promoting sustainable land management practices.</p>
+      </div>
+      <a href="#support" class="cta-btn">Support This Project</a>
+    </div>
+  </section>
+
+  <!-- Support Section -->
+  <section class="about" id="support">
+    <h2>Support Us</h2>
+    <p>Your support is crucial in helping us achieve our conservation goals. Whether it’s through donations, volunteering, or spreading the word, every contribution makes a difference.</p>
+    <a href="https://www.donate-uwcs.org" class="cta-btn">Donate Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Uganda Wildlife Conservation Society | All Rights Reserved</p>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+</body>
+</html>
